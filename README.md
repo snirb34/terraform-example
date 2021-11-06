@@ -6,6 +6,7 @@ This Terraform program is connecting to Azure and creating the following:
 * 3 VMs that will exist in each of the virtual networks' subnets
 
 The base image of all VMs is Ubuntu 18.04 LTS
+The script assumes that a resorce group is already created and expect to get it
 
 ## Current issues/limitations
-None of the VMs has a public IP
+* None of the VMs has a public IP
