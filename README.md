@@ -5,7 +5,8 @@ This Terraform program is connecting to Azure and creating the following:
 * Virtual network peering - vnet0<>vnet1; vnet0<>vnet2
 * 3 VMs that will exist in each of the virtual networks' subnets
 
-The base image of all VMs is Ubuntu 18.04 LTS
+The base image of all VMs is Ubuntu 18.04 LTS.
+
 The script assumes that a resorce group is already created and expect to get it
 
 ## Current issues/limitations
