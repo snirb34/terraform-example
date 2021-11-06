@@ -7,7 +7,7 @@ This Terraform program is connecting to Azure and creating the following:
 
 The base image of all VMs is Ubuntu 18.04 LTS.
 
-The script assumes that a resorce group is already created and expect to get it
+The script assumes that a resorce group is already created and expects to get it
 
 ## Current issues/limitations
 * None of the VMs has a public IP
